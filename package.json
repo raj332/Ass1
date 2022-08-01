@@ -1,8 +1,8 @@
 {
-  "name": "srexports_chatbot",
+  "name": "dhlselenabot",
   "version": "1.0.0",
   "description": "chatbot for clients",
-  "main": "app.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
     "nodemon": "^2.0.19"
   },
   "dependencies": {
+    "bot.js": "0.0.1",
     "cross-fetch": "^3.1.5"
   }
 }
