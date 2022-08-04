@@ -1,0 +1,17 @@
+{
+  "name": "que4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dhlbot": "^1.0.0",
+    "selenabot": "^1.0.0",
+    "ws": "^8.8.1"
+  }
+}

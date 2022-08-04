@@ -5,8 +5,6 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
 </head>
 <body>
  <h1>Dhl Courier Tracking bot</h1>
@@ -18,9 +16,10 @@
 
 </body>
 <script>
-    let ws =new WebSocket('ws://localhost:8000');
+    let ws =new WebSocket('ws://localhost:8080');
     ws.addEventListener("message",(msg)=>{
         let reply =msg.data;
+        console.log(reply);
         document.getElementById('chatlog').innerHTML+='<br>Selena => '+reply;
     })
     function sendMessage(){
